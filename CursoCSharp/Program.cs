@@ -25,10 +25,12 @@ namespace CursoCSharp {
                 {"Operador Ternário - Fundamentos", OperadorTernario.Executar },
                 
                 //Estruturas de Controle
-                {"IF - Estruturas de COntrole", EstruturaIf.Executar },
-                {"Switch - Estruturas de COntrole", EstruturaSwitch.Executar },
-                {"While - Estruturas de COntrole", EstruturaWhile.Executar },
-                {"Do while - Estruturas de COntrole", EstruturaDoWhile.Executar },
+                {"IF - Estruturas de Controle", EstruturaIf.Executar },
+                {"Switch - Estruturas de Controle", EstruturaSwitch.Executar },
+                {"While - Estruturas de Controle", EstruturaWhile.Executar },
+                {"Do while - Estruturas de Controle", EstruturaDoWhile.Executar },
+                {"For - Estruturas de Controle", EstruturaFor.Executar },
+                {"For Each - Estruturas de Controle", EstruturaForEach.Executar },
             });
 
             central.SelecionarEExecutar();
