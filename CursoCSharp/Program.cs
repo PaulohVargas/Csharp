@@ -34,7 +34,10 @@ namespace CursoCSharp {
                 {"For Each - Estruturas de Controle", EstruturaForEach.Executar },
 
                 //Classes e métodos
-                {"Membros - Classes & Métodos", Membros.Executar}
+                {"Membros - Classes & Métodos", Membros.Executar},
+                {"Construtores - Classes & Métodos", Construtores.Executar},
+                {"Métodos com Retorno - Classes & Métodos", MetodosComReturn.Executar},
+                {"Desafio - Classes & Métodos", Desafio.Executar},
             });
 
             central.SelecionarEExecutar();
