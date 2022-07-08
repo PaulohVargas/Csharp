@@ -38,6 +38,9 @@ namespace CursoCSharp {
                 {"Construtores - Classes & Métodos", Construtores.Executar},
                 {"Métodos com Retorno - Classes & Métodos", MetodosComReturn.Executar},
                 {"Desafio - Classes & Métodos", Desafio.Executar},
+                {"Params - Classes & Métodos", Params.Executar},
+                {"Parâmetros Nomeados - Classes & Métodos", ParâmetrosNomeados.Executar},
+                {"Get & Set - Classes & Métodos", GetSet.Executar},
             });
 
             central.SelecionarEExecutar();
