@@ -53,6 +53,10 @@ namespace CursoCSharp {
                 {"List - Coleções", Colecoes.List.Executar},
                 {"Arraylist - Coleções", ExArrayList.Executar},
                 {"Set - Coleções", ExHashSet.Executar},
+                {"Queue - Coleções", ExQueue.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
+                {"Stack - Coleções", ExStack.Executar},
+                {"Dicionários - Coleções", Dicionario.Executar},
             });
 
             central.SelecionarEExecutar();
