@@ -6,6 +6,7 @@ using CursoCSharp.EstruturaDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 using CursoCSharp.OO;
+using CursoCSharp.MetodosEFuncoes;
 
 namespace CursoCSharp {
     class Program {
@@ -67,7 +68,14 @@ namespace CursoCSharp {
                 {"Classe abstrata - OO", Abstract.Executar},
                 {"Interface - OO", Interface.Executar},
                 {"Sealed - OO", Seaaled.Executar},
-            });
+
+                //Métodos & Funções
+                {"Exemplo Lambda - Métodos & Funções", ExemploLambda.Executar},
+                {"Delegate - Métodos & Funções", LambdasDelegate.Executar},
+                {"Delegate como função anônima - Métodos & Funções", DelegateFunAnonima.Executar},
+                {"Delegate como parâmetros - Métodos & Funções", DelegateComoParametro.Executar},
+                {"Métodos de Extenssão - Métodos & Funções", MetodosDeExtensao.Executar},
+            }); ;
 
             central.SelecionarEExecutar();
         }
