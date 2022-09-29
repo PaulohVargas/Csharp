@@ -83,6 +83,9 @@ namespace CursoCSharp {
                 {"Exceção personalizada - Exceções", ExcecaoPersonalizada.Executar},
 
                 {"Primeiro Arquivo - Explorando API", PrimeiroArquivo.Executar},
+                {"Lendo arquivo - Explorando API", LendoArquivo.Executar},
+                {"Exemplo FileInfo - Explorando API", ExemploFileInfo.Executar},
+                {"Diretórios - Explorando API", Diretorios.Executar},
             }); ;
 
             central.SelecionarEExecutar();
